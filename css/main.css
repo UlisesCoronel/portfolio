@@ -425,3 +425,7 @@
   align-items: center;
   text-align: center;
 }
+
+.contacto__link {
+  text-decoration: none;
+}
