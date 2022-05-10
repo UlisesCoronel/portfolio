@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ulises Coronel - Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Commissioner:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+    <script
+      src="https://kit.fontawesome.com/ae9df570df.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav class="nav" id="nav">
+      <input
+        type="checkbox"
+        id="nav__checkbox"
+        name="nav__checkbox"
+        class="nav__checkbox"
+      />
+      <label for="nav__checkbox" class="nav__toggle">
+        <div id="nav__toggle-menu"><i class="fa-solid fa-bars"></i></div>
+        <div id="nav__toggle-close"><i class="fa-solid fa-xmark"></i></div>
+      </label>
+      <div class="nav__index">
+        <a href="index.html"><h2>ULISES CORONEL</h2></a>
+      </div>
+      <ul class="nav__menu">
+        <li class="nav__li">
+          <a href="#sobre_mi">Sobre mi</a>
+        </li>
+        <li class="nav__li">
+          <a href="#habilidades">Habilidades</a>
+        </li>
+        <li class="nav__li">
+          <a href="#proyectos">Proyectos</a>
+        </li>
+        <li class="nav__li">
+          <a href="#contacto">Contacto</a>
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <!-- Inicio -->
+      <div class="inicio">
+        <div class="inicio__background">
+          <div class="inicio__brand">
+            <div>
+              <h2 class="inicio__brand-h2">ULISES CORONEL</h2>
+            </div>
+            <div class="">
+              <h3 class="inicio__brand-h3">Developer</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Sobre mi -->
+      <section class="seccion sobre_mi" id="sobre_mi">
+        <div class="titulo">SOBRE MI</div>
+        <p class="sobremi__parrafo">
+          ¡Hola! Mi nombre es Ulises y estoy iniciando mi camino en el mundo de
+          la programación. Desde muy pequeño tuve curiosidad por la resolución
+          de problemas, la tecnología y por
+          <i>saber como funcionan las cosas</i>. Actualmente, en la búsqueda de
+          satisfacer esa curiosidad y afrontar nuevos desafíos, comencé mi
+          formación autodidacta en programación y desarrollo web.
+        </p>
+        <p class="sobremi__parrafo">
+          Poseo mucho interés en brindar soluciones a los problemas de las
+          personas. En ese sentido tengo una amplia formación en ciencias
+          blandas, el trabajo en equipo y el desarrollo de proyectos grupales.
+          Además de una actitud receptiva de los conocimientos y sugerencias que
+          se me brindan.
+        </p>
+        <p class="sobremi__parrafo">
+          Esto convencido de que esta era nos brinda grandes oportunidades y
+          desafíos que podremos afrontar a través de las múltiples herramientas
+          digitales que podamos construir. Estoy resuelto a ser parte de ese
+          proceso.
+        </p>
+      </section>
+      <!-- Habilidades -->
+      <section class="seccion habildades" id="habilidades">
+        <div class="titulo col-12">MIS HABILIDADES</div>
+        <div class="habilidades__container">
+          <div class="habilidades__seccion backend">
+            <div class="habilidades__seccion-contenido">
+              <i class="fa-solid fa-code"></i>
+              <h4 class="habilidades__seccion-titulo">Backend & Database</h4>
+              <p>Python</p>
+              <p>MySQL</p>
+            </div>
+          </div>
+          <div class="habilidades__seccion frontend">
+            <div class="habilidades__seccion-contenido">
+              <i class="fa-solid fa-laptop-code"></i>
+              <h4 class="habilidades__seccion-titulo">Frontend</h4>
+              <p>HTML 5</p>
+              <p>CSS 3</p>
+              <p>Bootstrap 5</p>
+            </div>
+          </div>
+          <div class="habilidades__seccion otros_conocimientos">
+            <div class="habilidades__seccion-contenido">
+              <i class="fa-solid fa-hammer"></i>
+              <h4 class="habilidades__seccion-titulo">Otros conocimientos</h4>
+              <p>Adobe Illustrator</p>
+              <p>Adobe Photoshop</p>
+              <p>Adobe Lightroom</p>
+              <p>Git</p>
+              <p>GitHub</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Proyectos -->
+      <section class="seccion proyectos" id="proyectos">
+        <div class="titulo col-12">MIS PROYECTOS</div>
+        <p class="sobremi__parrafo">
+          En este momento estoy profundizando mis conocimientos en programación
+          Backend, especificamente en Python y sus frameworks. Te invito a que
+          le heches un vistazo a mi repertorio de GitHub con los proyectos y
+          prácticas realizadas:
+        </p>
+        <div class="contacto__github contacto__link">
+          <a href="#">
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </div>
+      </section>
+      <!-- Contacto -->
+      <section class="seccion contacto" id="contacto">
+        <div class="titulo contacto__titulo">CONTACTO</div>
+        <div class="contacto__form">
+          <form name="formulario_contacto" class="contacto__form--form" netlify>
+            <p class="contacto__form--titulo">ENVIAME UN MENSAJE</p>
+            <input
+              type="text"
+              class="contacto__form--input"
+              placeholder="Nombre"
+            />
+
+            <input
+              type="email"
+              class="contacto__form--input"
+              placeholder="Correo electrónico"
+            />
+
+            <input
+              type="text"
+              class="contacto__form--input"
+              placeholder="Asunto"
+            />
+
+            <textarea
+              class="contacto__form--textarea"
+              placeholder="Escriba aquí su mensaje"
+              cols="30"
+              rows="10"
+            ></textarea>
+            <input
+              type="submit"
+              value="ENVIAR"
+              class="contacto__form--submmit"
+            />
+          </form>
+        </div>
+        <div class="contacto__linkedin contacto__link">
+          <a
+            href="https://www.linkedin.com/in/ulises-coronel-39044420b/"
+            target="_blank"
+          >
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+        </div>
+        <div class="contacto__github contacto__link">
+          <a href="#">
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
