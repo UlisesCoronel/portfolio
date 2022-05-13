@@ -2,7 +2,7 @@
   font-family: "Commissioner", sans-serif;
   --grey: #313131;
   --lightgrey: #e1e5e9;
-  --yellow: #ecbf09;
+  --yellow: #ffd100;
   background-color: #313131;
   color: #fff;
 }
@@ -145,6 +145,12 @@
   .nav__menu li {
     display: inline-block;
     margin: 0px 10px;
+  }
+
+  .nav__menu li:last-child {
+    display: inline-block;
+    margin: 0px 10px;
+    min-width: 140px;
   }
 
   .nav__menu li a {
@@ -350,6 +356,10 @@
 .contacto__form--submmit:focus {
   background-color: var(--yellow);
   color: var(--grey);
+}
+
+.contacto__link a {
+  color: white;
 }
 
 .contacto__link a:visited {
